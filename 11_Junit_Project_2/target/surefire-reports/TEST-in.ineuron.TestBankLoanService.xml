@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="in.ineuron.TestBankLoanService" time="20.123" tests="5" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2\target\test-classes;C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2\target\classes;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\user-pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user-pc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user-pc\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Dhaka"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\user-pc\Desktop\Softwares\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\user-pc\AppData\Local\Temp\surefire2186219558561298340\surefirebooter2490698574001763634.jar C:\Users\user-pc\AppData\Local\Temp\surefire2186219558561298340 2023-10-23T20-23-39_620-jvmRun1 surefire4695286038432192067tmp surefire_08404479989225044371tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2\target\test-classes;C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2\target\classes;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\user-pc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\user-pc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\user-pc\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\user-pc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user-pc"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Users\user-pc\Desktop\Softwares\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user-pc\AppData\Local\Temp\surefire2186219558561298340\surefirebooter2490698574001763634.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="user-pc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="localRepository" value="C:\Users\user-pc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\user-pc\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="user.dir" value="C:\Users\user-pc\Desktop\Self-Learning\GitSession\SpringbootExamples2\11_Junit_Project_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\user-pc\Desktop\Softwares\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/user-pc/Desktop/Softwares/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin/server;C:/Users/user-pc/Desktop/Softwares/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\php\php.exe;C:\Program Files\nodejs\;C:\Users\user-pc\Desktop\Self-Learning\jars\apache-maven-3.9.1\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Users\user-pc\Desktop\Self-Learning\jars\apache-zookeeper-3.7.1-bin\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user-pc\AppData\Local\Microsoft\WindowsApps;C:\Users\user-pc\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\user-pc\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Users\user-pc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user-pc\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\Java\jdk1.8.0_181\bin;;C:\Users\user-pc\Desktop\Softwares\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testCalculateSimpleInterestWithSmallNumbers(TestInfo)" classname="in.ineuron.TestBankLoanService" time="10.058">
+    <system-out><![CDATA[
+TestBankLoanService.setUp()
+
+BankLoanService:: Zero Param Constructor
+
+
+TestBankLoanService.testCalculateSimpleInterestWithSmallNumbers(), Optional[class in.ineuron.TestBankLoanService], [dev]
+BankLoanService.calculateSimpleInterest()
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue" classname="in.ineuron.TestBankLoanService" time="0.006"/>
+  <testcase name="testCalculateSimpleInterestWithInvalidInputs2" classname="in.ineuron.TestBankLoanService" time="0">
+    <skipped message="public void in.ineuron.TestBankLoanService.testCalculateSimpleInterestWithInvalidInputs2() is @Disabled"/>
+  </testcase>
+  <testcase name="testCalculateSimpleInterestWithInvalidInputs" classname="in.ineuron.TestBankLoanService" time="0.002">
+    <system-out><![CDATA[
+TestBankLoanService.testCalculateSimpleInterestWithInvalidInputs()
+BankLoanService.calculateSimpleInterest()
+]]></system-out>
+  </testcase>
+  <testcase name="testCalculateSimpleInterestWithTimer" classname="in.ineuron.TestBankLoanService" time="10.005">
+    <system-out><![CDATA[
+TestBankLoanService.testCalculateSimpleInterestWithTimer()
+BankLoanService.calculateSimpleInterest()
+]]></system-out>
+  </testcase>
+</testsuite>
